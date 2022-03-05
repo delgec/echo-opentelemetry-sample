@@ -28,4 +28,5 @@ Then open http://localhost:16686/search
 
 
 http://localhost:14268/api/traces
+
 http://localhost:16686/search
