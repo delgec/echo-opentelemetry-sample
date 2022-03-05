@@ -22,11 +22,6 @@ Runtime metrics http://localhost:1323/metrics
 sudo docker run --rm --name jaeger -p 16686:16686 -p 14268:14268 jaegertracing/all-in-one
 ```
 
+Then open http://localhost:14268/api/traces
+
 Then open http://localhost:16686/search
-
-
-
-
-http://localhost:14268/api/traces
-
-http://localhost:16686/search
